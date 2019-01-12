@@ -16,19 +16,16 @@ struct Matrix
 
 	Matrix()
 	{
-		mat = NULL;
 		this->reSitSize(0, 0);
 	}
 
 	Matrix(int rows, int columns)
 	{
-		mat = NULL;
 		this->reSitSize(rows, columns, 0, 0);
 	}
 
 	Matrix(int rows, int columns, T elem)
 	{
-		mat = NULL;
 		this->reSitSize(rows, columns, elem, elem);
 	}
 
